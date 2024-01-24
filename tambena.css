@@ -38,7 +38,7 @@ li .other-btn:hover, .home-btn {
     margin-bottom: 20px;
 }
 .our-tech-div{
-    margin-top: 100px !important;
+    margin-top: 70px !important;
 }
 .modren-techonology-paragraph {
     color: #595959;
@@ -96,7 +96,7 @@ li .other-btn:hover, .home-btn {
     font-weight: 700;
     text-align: center;
     color: #595959;
-    margin-top: 100px !important;
+    margin-top: 70px !important;
 }
 .services-heading {
     font-size: 44px;
@@ -144,6 +144,7 @@ li .other-btn:hover, .home-btn {
     color: #FFFFFF;
     margin-top: 80px;
     margin-bottom: 53px;
+    padding-top: 20px !important;
 }
 ::placeholder {
     color: #FFFFFF;
@@ -385,8 +386,7 @@ textarea::placeholder {
     height: 390px;
 }
 .responsive-navbar{
-    padding-left: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     background-color: #ddcdcd;
     gap: 5px !important;
     border-radius: 5px;
