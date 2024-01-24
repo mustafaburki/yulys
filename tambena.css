@@ -1,0 +1,1040 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.tambena-img{
+    margin-left: 15px;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+.top-nav-items {
+    list-style-type: none;
+}
+.navigation-row {
+    box-shadow: 0px 15px 15px 0px #00000040;
+}
+li .home-btn, li .other-btn {
+    color: #595959;
+    font-size: 18px;
+    font-weight: 700;
+}
+li .home-btn {
+    color: #004BAE !important;
+}
+li .other-btn:hover, .home-btn {
+    color: #004BAE;
+}
+.techonology-heading {
+    font-size: 41px;
+    line-height: 50.83px;
+    font-weight: 700;
+    color: #004BAE;
+}
+.our-techonology-row {
+    background: url(./pic/background.png);
+    padding-top: 97px !important;
+    margin-bottom: 20px;
+}
+.our-tech-div{
+    margin-top: 77px;
+}
+.modren-techonology-paragraph {
+    color: #595959;
+    font-size: 22px;
+    font-weight: 700;
+}
+.content-heading {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+    color: #004BAE;
+    margin-top: 13px;
+}
+.paragraph-content {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    line-height: 21.78px;
+    font-size: 18px;
+    color: #595959;
+}
+.divider-line {
+    width: 958.03px;
+    color: #004BAE;
+    border: 1px solid #004BAE;
+    margin-bottom: 27.5px;
+}
+.blue-button {
+    width: 130px;
+    height: 48px;
+    border: 2px solid #004BAE;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    color: #004BAE;
+}
+.btn-arrow {
+    display: none;
+}
+.blue-button:hover .btn-arrow,
+.blue-button:hover {
+    display: inline-block;
+    background-color: #004BAE;
+    color: #FFFFFF;
+}
+.xp-img {
+    width: 243px;
+    height: 267px;
+}
+.img-div{
+    margin-top: 85px;
+}
+.about-txt {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: #595959;
+    margin-top: 36px;
+}
+.services-heading {
+    font-size: 44px;
+    font-weight: 700;
+    color: #004BAE;
+    line-height: 53.25px;
+}
+.col5-img {
+    width: 500px;
+    height: 400px;
+    margin-top: 34px;
+    margin-left: 34px;
+}
+.cloud-expert-div {
+    margin-left: 63px;
+    margin-top: 81px;
+    margin-bottom: 115px;
+}
+.cloud-based-div {
+    box-shadow: 0px 15px 25px 0px #00000040;
+    margin-bottom: 81px;
+}
+.shadow-div{
+    border-radius: 15px;
+    color: #595959;
+    background-color: #EEEEEE;
+    padding: 20px 20px 40px 33px;
+}
+.company-services-sub-heading {
+    color: #004BAE;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26.63px;
+    margin-bottom: 0px;
+}
+.company-services-paragraph {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26.63px;
+}
+.expert-team-div:hover {
+    box-shadow: 0px 15px 25px 0px #00000040;
+}
+.contact-us-form-heading {
+    color: #FFFFFF;
+    margin-top: 80px;
+    margin-bottom: 53px;
+}
+::placeholder {
+    color: #FFFFFF;
+}
+.cnt-us-form-txt {
+    height: 27px;
+    padding: 15px 0px 15px 9px;
+    width: 100%;
+    color: #fff !important;
+    line-height: 26.63px;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #FFFFFF;
+}
+.cnt-us-form-txt:focus {
+    outline: 0;
+    border-bottom: 3px solid #FFFFFF;
+}
+textarea {
+    height: 140px;
+}
+textarea::placeholder {
+    color: #FFFFFF !important;
+}
+.text-area-txt {
+    padding-top: 15px;
+    color: #fff !important;
+    line-height: 26.63px;
+    font-size: 22px !important;
+    font-weight: 700;
+    background-color: transparent;
+    border: 3px solid #FFFFFF;
+}
+.text-area-txt:focus {
+    outline: 0;
+    background-color: transparent;
+    border: 3px solid #FFFFFF;
+}
+.msg-send-button {
+    background-color: #fff;
+    padding: 15px 60px;
+    border: 0px;
+    border-radius: 10px;
+    color: #004BAE;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26.63px;
+    margin-top: 40px;
+}
+.footer-content {
+    color: #595959;
+    width: 238px;
+    margin-top: 21.9px;
+    line-height: 21.78px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer-navigation {
+    list-style-type: none;
+    padding-left: 5px !important;
+}
+.footer-navigation li a {
+    color: #595959;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 26px;
+}
+.service-link-btn {
+    color: #004BAE !important;
+}
+.footer-navigation li a:hover {
+    color: #004BAE;
+}
+.footer-row {
+    margin-top: 123px;
+}
+.reach-us-txt {
+    color: #004BAE !important;
+    margin-bottom: 19px;
+}
+.statments, .footer-navigation li a, .reach-us-txt {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #595959;
+    text-decoration: none;
+}
+.icon {
+    color: #595959;
+}
+.bottom-footer {
+    border-top: 1px solid #595959;
+    font-size: 12px;
+    padding-top: 20px;
+}
+.svg-div{
+    margin-right: 15px;
+}
+.links a:hover{
+    color: #004BAE;
+}
+@media screen and (max-width:1440px) {
+ 
+    .work-img{
+        width: 440px;
+    }
+    .xp-img {
+        width: 280px;
+        height: 285px;
+    }
+    .yulys-img{
+        width: 100% !important;
+        height: 270px;
+    }
+    
+}
+@media screen and (max-width:1024px){
+    .work-img{
+        width: 375px;
+        height: 400px
+    }
+    .techonology-heading{
+        font-size: 31px;
+    }
+    .modren-techonology-paragraph{
+        font-size: 16px;
+    }
+    .paragraph-content{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .content-heading {
+        font-size: 26px;
+        line-height: 26.73px;
+    }
+    .yulys-img{
+        width: 100% !important;
+        height: 270px;
+    }
+    .blue-button{
+        width: 115px;
+        height: 45px;
+    }
+    .about-txt {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .services-heading {
+        font-size: 34px;
+        line-height: 45.25px;
+    }
+    .col5-img{
+        width: 400px !important;
+        height: 308px !important;
+    }
+    .company-services-sub-heading{
+        font-size: 17px;
+        line-height: 18.63px;
+    }
+    .company-services-paragraph{
+        font-size: 17px;
+        line-height: 22.63px;
+    }
+    .shadow-div {
+        padding: 18px 15px 13px 15px;
+    }
+    .cloud-expert-div {
+        margin-left: 40px;
+        margin-top: 81px;
+        margin-bottom: 80px;
+    }
+    .hand-img{
+        object-fit: cover;
+            width: 315px;
+            height: 620px;
+            overflow-x: hidden;
+    }
+    .contact-us-form-heading {
+        margin-top: 73px;
+        margin-bottom: 45px;
+    }
+    .cnt-us-form-txt {
+        padding: 10px 0px 14px 7px;
+        line-height: 26.63px;
+        font-size: 20px;
+    }
+    .msg-send-button{
+        padding: 13px 50px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .text-area-txt{
+        font-size: 20px !important;
+    }
+    .footer-tambena-img{
+        width: 200px;
+        height: 46.78px;
+    }
+    .footer-row {
+        margin-top: 80px;
+    }
+    .footer-content{
+        font-size: 17px;
+    }
+    .footer-navigation li a, .reach-us-txt {
+        font-size: 16px;
+        line-height: 17.78px;
+    }
+    .footer-navigation{
+        padding-left: 60px !important;
+    }
+    .statments{
+        font-size: 16px;
+        line-height: 17.78px;
+    }
+    .bottom-footer {
+        font-size: 11px;
+        padding-top: 15px;
+    }
+
+}
+@media screen and (max-width:1101px){
+    .techonology-heading{
+        font-size: 39px;
+    }
+    .col5-img{
+        width: 469px;
+    }
+    .modren-techonology-paragraph{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:991px) {
+.work-img {
+    width: 350px;
+    height: 390px;
+}
+.responsive-navbar{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: #ddcdcd;
+    gap: 5px !important;
+    border-radius: 5px;
+}
+.techonology-heading {
+    font-size: 30px;
+}
+.modren-techonology-paragraph {
+    font-size: 17px;
+}
+.content-heading {
+    font-size: 24px;
+    line-height: 10.73px;
+}
+.paragraph-content {
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+.services-heading {
+    font-size: 32px;
+    line-height: 38.25px;
+}
+.company-services-paragraph{
+    font-size: 16px;
+}
+.cnt-us-form-txt{
+    font-size: 18px;
+}
+.text-area-txt{
+    font-size: 18px !important;
+}
+.footer-content{
+    font-size: 16px;
+}
+.footer-navigation li a{
+    font-size: 15px;
+}
+.statments{
+    font-size: 15px;
+}
+svg{
+    height: 18px;
+    width: 18px;
+}
+}
+@media screen and (max-width:895px) {
+    .work-img {
+        width: 300px;
+        height: 315px;
+    }
+    .techonology-heading{
+        font-size: 27px;
+    }
+    .modren-techonology-paragraph{
+        font-size: 16px;
+    }
+    .our-tech-div {
+        margin-top: 40px;
+    }
+
+    .our-techonology-row{
+        padding-top: 60px !important;
+        margin-bottom: 10px;
+    }
+    .about-txt {
+        font-size: 18px;
+        margin-top: 0px;
+    }
+    .services-heading {
+        font-size: 29px;
+    }
+    .col5-img {
+        width: 350px !important;
+        height: 290px !important;
+    }    
+    .company-services-paragraph {
+        font-size: 15px;
+    }
+    .content-div2{
+        padding-left: 15px;
+    }
+    .xp-img {
+        width: 207px;
+        height: 255px;
+    }
+    .content-div1{
+        margin-left: 20px;
+        margin-right: 30px;
+    }
+    .content-div2{
+        padding-left: 35px;
+    }
+    textarea{
+        height: 120px;
+    }
+    .footer-row {
+        margin-top: 40px;
+    }
+    .hand-img {
+        width: 283px;
+        height: 574px;
+    }
+    svg{
+        height: 17px;
+        width: 17px;
+    }
+}
+@media screen and (max-width:795px) {
+    .work-img {
+        width: 290px;
+        height: 320px;
+    }
+    .modren-techonology-paragraph{
+        font-size: 14px;
+    }
+    .col5-img {
+        width: 318px !important;
+        height: 284px !important;
+    }
+    .cloud-based-div{
+        margin-bottom: 50px;
+    }
+    li .home-btn, li .other-btn {
+        font-size: 15px;
+    }
+    .tambena-img{
+        width: 150px;
+    }
+    svg{
+        height: 16px;
+        width: 16px;
+    }
+    
+}
+@media screen and (max-width:767px) {
+    .work-img {
+        width: 270px;
+        height: 310px;
+    }
+    .content-div2{
+        padding-left: 0px;
+    }
+    .techonology-heading {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .yulys-img {
+        width: 225px;
+        height: 236px;
+    }
+    .modren-techonology-paragraph {
+        font-size: 13px;
+    }
+    .our-techonology-row{
+        padding-top: 30px !important;
+    }
+    .content-heading{
+        font-size: 18px;
+    }
+    .paragraph-content {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    .blue-button {
+        width: 100px;
+        height: 40px;
+    }
+    .services-heading{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .col5-img {
+        width: 240px !important;
+        height: 250px !important;
+    }
+    .company-services-sub-heading{
+        font-size: 14px;
+    }
+    .company-services-paragraph{
+        font-size: 12px;
+    }
+    .img-div{
+        margin-top: 20px;
+    }
+    .xp-img {
+        width: 200px;
+        height: 225px;
+    }
+    .cloud-expert-div{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .contact-us-form-heading {
+        margin-top: 20px;
+        margin-bottom: 35px;
+    }
+    .cnt-us-form-txt {
+        font-size: 15px;
+    }
+    .hand-img {
+        width: 306px;
+        height: 458px;
+    }
+    .text-area-txt {
+        font-size: 15px !important;
+    }
+    textarea{
+        height: 100px;
+    }
+    .msg-send-button {
+        padding: 10px 35px;
+        font-size: 16px;
+        margin-top: 0px;
+    }
+    .footer-tambena-img{
+        width: 170px;
+    }
+    .footer-content {
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    .footer-navigation li a{
+        margin-bottom: 18px;
+        font-size: 13px;
+        line-height: 14px;
+        font-weight: 600;
+    }
+    .footer-navigation{
+        padding-left: 45px !important;
+    }
+    li .home-btn, li .other-btn {
+        font-size: 14px;
+    }
+    .reach-us-txt{
+        font-size: 13px;
+    }
+    .statments {
+        font-size: 13px;
+    }
+    .bottom-footer{
+        padding-top: 5px;
+    }
+    svg{
+        height: 15px;
+        width: 15px;
+    }
+}
+@media screen and (max-width:686px) {
+    .work-img {
+        width: 246px;
+        height: 270px;
+    }    
+    .xp-img {
+        width: 190px;
+        height: 215px;
+    }
+    .col5-img {
+        width: 235px !important;
+        height: 250px !important;
+        margin-left: 5px;
+    }
+    .services-heading{
+        font-size: 18px;
+    }
+    .footer-content{
+        width: 200px;
+    }
+    svg{
+        height: 15px;
+        width: 15px;
+    }
+}
+@media screen and (max-width:619px) {
+    .work-img {
+        width: 224px;
+        height: 258px;
+    }
+    .yulys-img {
+        width: 190px;
+    }
+    .xp-img {
+        width: 178px;
+        height: 210px;
+    }
+    .col5-img{
+        width: 220px !important;
+        height: 246px !important;
+    }
+}
+@media screen and (max-width:575px) {
+    .responsive-img-column{
+        display: flex;
+        justify-content: center;
+    }
+    li .home-btn, li .other-btn {
+        padding: 0px;
+        font-size: 13px;
+    }
+    .modren-tech-div{
+        margin-top: 10px;
+    }
+    .our-tech-div {
+        margin-top: 25px;
+    }
+    .our-techonology-row {
+        padding-top: 5px !important;
+    }
+    .techonology-content-row{
+        flex-direction: column-reverse;
+    }
+    .content-heading{
+        margin-top: 0px;
+    }
+    .content-div1{
+        margin: 0px;
+    }
+    .yulys-img {
+        width: 350px !important;
+    }
+    .paragraph-content {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .btn-div{
+        margin-bottom: 30px;
+    }
+    .content-div2{
+        margin: 0px;
+    }
+    .picture-column{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .xp-img{
+        width: 350px !important;
+    }
+    .services-heading{
+        margin-bottom: 25px;
+    }
+    .cloud-expert-div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0px;
+    }
+    .company-services-sub-heading{
+        font-size: 15px;
+    }
+    .company-services-paragraph{
+        font-size: 14px;
+    }
+    .img-div{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .col5-img {
+        width: 330px !important;
+        height: 255px !important;
+    }
+    .contact-us-form-heading {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    .hand-img{
+        object-fit: cover;
+        width: 175px;
+        height: 332px;
+    }
+    .g-5, .gy-5 {
+        --bs-gutter-y: 1rem;
+    }
+    .cnt-us-form-txt {
+        font-size: 12px;
+    }
+    .text-area-txt{
+        padding-top: 0px;
+        font-size: 12px !important;
+        height: 80px !important;
+    }
+    .msg-send-button {
+        padding: 6px 22px;
+        font-size: 13px;
+    }
+    .footer-content {
+        width: auto;
+        font-size: 14px;
+        margin-top: 0px;
+    }
+    .footer-tambena-img {
+        width: 160px;
+    }
+    .footer-navigation{
+        padding-left: 0px !important;
+    }
+    .footer-navigation li a {
+        margin-bottom: 16px;
+        font-size: 12px;
+    }
+    .statments{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .reach-us-txt {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .footer-row{
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    svg{
+        width: 13px;
+        height: 13px;
+    }
+    .bottom-footer{
+        font-size: 9px;
+    }
+}
+@media screen and (max-width:450px) {
+    .tambena-img {
+        width: 130px;
+    }
+    .responsive-img-column{
+        display: flex;
+        justify-content: center;
+    }
+    .techonology-heading {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .modren-techonology-paragraph {
+        font-size: 12px;
+    }
+    .content-heading {
+        font-size: 16px;
+    }
+    .paragraph-content {
+        font-size: 13px;
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+    .blue-button {
+        width: 90px;
+        height: 36px;
+        font-size: 15px;
+    }
+    .about-txt {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+    .services-heading {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .shadow-div {
+        padding: 10px 12px;
+    }
+    .cloud-based-div {
+        margin-bottom: 40px;
+    }
+    .company-services-sub-heading {
+        font-size: 14px;
+    }
+    .company-services-paragraph {
+        font-size: 13px;
+    }
+    .msg-send-btn-div{
+        margin-bottom: 20px !important;
+    }
+    .hand-img {
+        object-fit: cover;
+        width: 136px;
+        height: 292px;
+    }
+    .cnt-us-form-txt {
+        font-size: 9px;
+        padding: 0px 0px 0px 4px;
+        border-bottom: 2px solid #FFFFFF
+    }
+    .g-5, .gy-5 {
+        --bs-gutter-y: 0.5rem;
+    }
+    .text-area-txt {
+        font-size: 11px !important;
+        height: 72px !important;
+        border: 2px solid #FFFFFF
+    }
+    .msg-send-button {
+        padding: 3px 18px;
+        font-size: 12px;
+    }
+    .footer-content {
+        width: auto;
+        font-size: 14px;
+        margin-top: 0px;
+    }
+    .footer-tambena-img {
+        width: 140px;
+        height: 40px !important;
+        height: 110px;
+    }
+    .footer-navigation li a {
+        margin-bottom: 14px;
+        font-size: 11px;
+    }
+    .statments {
+        font-size: 11px;
+    }
+    svg {
+        width: 11px;
+        height: 11px;
+    }
+    .reach-us-txt{
+        margin-bottom: 0px;
+        font-size: 11px;
+    }
+    .footer-txt{
+        font-size: 8px;
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width:425px) {
+    .tambena-img {
+        width: 115px;
+    }
+    .responsive-img-column{
+        display: flex;
+        justify-content: center;
+    }
+    .techonology-heading {
+        font-size: 14px;
+        line-height: 12px;
+    }
+    .modren-techonology-paragraph {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .content-heading {
+        font-size: 13px;
+    }
+    .paragraph-content {
+        font-size: 12px;
+        margin-bottom: 5px;
+        margin-top: 0px;
+    }
+    .btn-div {
+        margin-bottom: 20px;
+    }
+    .blue-button {
+        width: 75px;
+        height: 31px;
+        font-size: 13px;
+    }
+    .divider-line{
+        margin-bottom: 15px;
+    }
+    .about-txt {
+        font-size: 13px;
+    }
+    .services-heading {
+        font-size: 14px;
+    }
+    .company-services-sub-heading {
+        font-size: 12px;
+    }
+    .company-services-paragraph {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    .mobile-resp-form-field{
+        padding-left: 5px;
+    }
+    .contact-us-form-heading {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .hand-img {
+        width: 127px;
+        height: 250px;
+    }
+    .svg-div {
+        margin-right: 5px;
+    }
+    .links{
+        line-height: 0px;
+    } 
+}
+@media screen and (max-width:375px) {
+    .tambena-img {
+        width: 102px;
+    }
+    .techonology-heading {
+        font-size: 13px;
+        line-height: 14px;
+    }
+    .modren-techonology-paragraph {
+        font-size: 11px;
+    }
+    .responsive-img-column{
+        display: flex;
+        justify-content: center;
+    }
+    .work-img {
+        width: 224px;
+        height: 230px;
+    }
+    .col5-img {
+        width: 294px !important;
+        height: 230px !important;
+        margin-top: 10px;
+    }
+    .img-div {
+        margin-top: 5px;
+    }
+    .hand-img {
+        width: 93px;
+        height: 230px;
+    }
+    .text-area-txt{
+        font-size: 11px !important;
+        height: 60px !important;
+        font-weight: 600;
+    }
+    .mobile-resp-form-field{
+        padding-right: 10px;
+    }
+    .msg-send-btn-div {
+        margin-bottom: 10px !important;
+    }
+    .footer-content {
+        font-size: 12px;
+    }
+    .footer-tambena-img {
+        width: 129px;
+        height: 34px !important;
+    }
+}
+@media screen and (max-width:300px) {
+
+    .col5-img {
+        width: 222px !important;
+        height: 190px !important;
+    }
+    .hand-img {
+        width: 78px;
+        height: 230px;
+    }
+}
+
