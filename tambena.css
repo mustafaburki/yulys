@@ -38,7 +38,7 @@ li .other-btn:hover, .home-btn {
     margin-bottom: 20px;
 }
 .our-tech-div{
-    margin-top: 77px;
+    margin-top: 100px !important;
 }
 .modren-techonology-paragraph {
     color: #595959;
@@ -96,7 +96,7 @@ li .other-btn:hover, .home-btn {
     font-weight: 700;
     text-align: center;
     color: #595959;
-    margin-top: 36px;
+    margin-top: 100px !important;
 }
 .services-heading {
     font-size: 44px;
