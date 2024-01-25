@@ -308,7 +308,7 @@ textarea::placeholder {
         margin-bottom: 80px;
     }
     .hand-img {
-        object-fit: cover;
+        object-fit: cover !important;
         width: 315px;
         height: 620px;
         overflow-x: hidden;
@@ -711,16 +711,19 @@ textarea::placeholder {
         height: 255px !important;
     }
     .contact-us-form-heading {
-        margin-bottom: 10px !important;
+        margin-bottom: 40px !important;
         padding-top: 20px !important;
     }
     .hand-img {
-        object-fit: cover;
+        object-fit: cover !important;
         width: 178px;
-        height: 388px;
+        height: 356px;
     }
     .cnt-us-form-txt {
         font-size: 12px;
+    }
+    .mobile-resp-form-field{
+        margin-top: 15px;
     }
     .text-area-txt {
         padding-top: 0px;
@@ -819,9 +822,9 @@ textarea::placeholder {
         margin-bottom: 20px !important;
     }
     .hand-img {
-        object-fit: cover;
+        object-fit: cover !important;
         width: 132px;
-        height: 302px;
+        height: 311px;
     }
     .cnt-us-form-txt {
         font-size: 9px;
@@ -920,11 +923,11 @@ textarea::placeholder {
     }
     .contact-us-form-heading {
         margin-top: 0px !important;
-        margin-bottom: 0px !important;
+        margin-bottom: 30px !important;
     }
     .hand-img {
         width: 127px;
-        height: 272px;
+        height: 283px;
     }
     .svg-div {
         margin-right: 5px;
@@ -960,7 +963,7 @@ textarea::placeholder {
     .hand-img {
         object-fit: cover !important;
         width: 110px;
-        height: 247px;
+        height: 261px;
     }
     .text-area-txt {
         font-size: 11px !important;
