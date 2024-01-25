@@ -650,6 +650,9 @@ textarea::placeholder {
     .hand-img {
         width: 266px;
     }
+    .mobile-resp-form-field {
+        padding-left: 10px;
+    }
 }
 @media screen and (max-width:575px) {
     .responsive-img-column {
@@ -996,7 +999,7 @@ textarea::placeholder {
         margin-top: 25px !important;
     }
     .hand-img {
-        width: 83px;
+        width: 88px;
         height: 248px;
     }
     .text-area-txt {
@@ -1004,5 +1007,9 @@ textarea::placeholder {
     }
     .paragraph-content {
         font-size: 11px;
+    }
+    .cnt-us-form-txt {
+        font-size: 8px;
+        padding: 0px 0px 0px 2px;
     }
 }
