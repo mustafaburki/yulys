@@ -710,6 +710,9 @@ textarea::placeholder {
         width: 330px !important;
         height: 255px !important;
     }
+    .expert-team-div{
+        margin-bottom: 40px !important;
+    }
     .contact-us-form-heading {
         margin-bottom: 40px !important;
         padding-top: 20px !important;
