@@ -694,6 +694,9 @@ textarea::placeholder {
     .xp-img {
         width: 300px !important;
     }
+    .about-txt{
+        margin-top: 40px !important;
+    }
     .services-heading {
         margin-bottom: 25px;
     }
@@ -724,7 +727,6 @@ textarea::placeholder {
         font-size: 12px !important;
         height: 80px !important;
     }
-
     .msg-send-button {
         padding: 6px 22px;
         font-size: 13px;
@@ -794,6 +796,7 @@ textarea::placeholder {
     }
     .about-txt {
         font-size: 15px;
+        margin-top: 30px !important;
         margin-bottom: 0px;
     }
     .services-heading {
