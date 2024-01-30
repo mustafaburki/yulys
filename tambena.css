@@ -43,7 +43,6 @@ li .other-btn:hover,
 }
 .techonology-heading {
     font-size: 42px;
-    line-height: normal;
     font-weight: 700;
     color: #004BAE;
     margin-bottom: 18px;
@@ -57,12 +56,10 @@ li .other-btn:hover,
 
 }
 .our-tech-div{
-    /* margin-top: 70px !important; */
     overflow-x: hidden !important;
     text-align: center;
     width: 120% !important;
     height: 270px;
-    /* position: relative; */
     border-top: 2px solid #004BAE;
     border-radius: 52% 48% 49% 51% / 100% 100% 0% 0%;
     transform: translateX(-145px);
@@ -81,7 +78,6 @@ li .other-btn:hover,
 .content-heading {
     font-size: 32px;
     font-weight: 700;
-    line-height: 38.73px;
     color: #004BAE;
     margin-top: 13px;
 }
@@ -173,7 +169,7 @@ li .other-btn:hover,
 .company-services-paragraph {
     font-weight: 400;
     font-size: 22px;
-    line-height: 26.63px;
+ 
 }
 
 
@@ -251,7 +247,6 @@ textarea::placeholder {
     color: #004BAE;
     font-weight: 700;
     font-size: 22px;
-    line-height: 26.63px;
     margin-top: 49px;
 }
 .footer-tambena-img{
@@ -450,7 +445,6 @@ textarea::placeholder {
 
     .content-heading {
         font-size: 26px;
-        line-height: 26.73px;
     }
 
     .yulys-img {
@@ -470,7 +464,6 @@ textarea::placeholder {
 
     .services-heading {
         font-size: 34px;
-        line-height: 45.25px;
     }
 
     .col5-img {
@@ -480,13 +473,11 @@ textarea::placeholder {
 
     .company-services-sub-heading {
         font-size: 17px;
-        line-height: 18.63px;
         margin-bottom: 8px;
     }
 
     .company-services-paragraph {
         font-size: 17px;
-        line-height: 22.63px;
     }
 
     .shadow-div {
@@ -538,7 +529,6 @@ textarea::placeholder {
     .footer-navigation li a,
     .reach-us-txt {
         font-size: 16px;
-        line-height: 17.78px;
     }
 
     .footer-navigation {
@@ -547,7 +537,6 @@ textarea::placeholder {
 
     .statments {
         font-size: 16px;
-        line-height: 17.78px;
     }
 
     .bottom-footer {
@@ -588,7 +577,6 @@ textarea::placeholder {
 
     .content-heading {
         font-size: 24px;
-        line-height: 10.73px;
     }
 
     .paragraph-content {
@@ -598,7 +586,6 @@ textarea::placeholder {
 
     .services-heading {
         font-size: 32px;
-        line-height: 38.25px;
     }
 
     .company-services-paragraph {
@@ -764,7 +751,6 @@ textarea::placeholder {
 
     .techonology-heading {
         font-size: 20px;
-        line-height: 30px;
     }
     .our-tech-div {
         transform: translateX(-66px);
@@ -800,7 +786,6 @@ textarea::placeholder {
 
     .services-heading {
         font-size: 22px;
-        line-height: 30px;
     }
 
     .col5-img {
@@ -867,7 +852,6 @@ textarea::placeholder {
     .footer-navigation li a {
         margin-bottom: 18px;
         font-size: 13px;
-        line-height: 14px;
         font-weight: 600;
     }
 
@@ -1175,7 +1159,6 @@ textarea::placeholder {
 
     .techonology-heading {
         font-size: 17px;
-        line-height: 25px;
     }
     .our-techonology-row{
         height: 1020px;
@@ -1330,7 +1313,6 @@ textarea::placeholder {
 
     .techonology-heading {
         font-size: 14px;
-        line-height: 20px;
     }
 
     .modren-techonology-paragraph {
