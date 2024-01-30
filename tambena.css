@@ -325,7 +325,7 @@ textarea::placeholder {
     overflow-x: hidden;
 }
 
-/* @media screen and (min-width:1441px) {
+@media screen and (min-width:1441px) {
     
  .col5-img{
     width: 562px;
@@ -338,7 +338,7 @@ textarea::placeholder {
     width: 414px;
     height: 813px;
  }
-} */
+}
 
 @media screen and (max-width:1440px) {
 
@@ -356,8 +356,8 @@ textarea::placeholder {
     }
 
     .yulys-img {
-        width: 338px;
-        height: 371px;
+        width: 298px;
+        height: 327px;
     }
     .col5-img{
         width: 476px;
@@ -372,12 +372,17 @@ textarea::placeholder {
         height: 696px;
     }
 }
+
 @media screen and (max-width:1200px) {
     .responsive-navbar{
         margin-right: 20px;
     }
     .our-tech-div {
         transform: translateX(-117px);
+    }
+    .yulys-img{
+        width: 375px;
+        height: 414px;
     }
     .hand-img {
         width: 286px;
@@ -417,7 +422,6 @@ textarea::placeholder {
     }
 }
 
-
 @media screen and (max-width:1024px) {
     .tambena-img {
         margin-left: 20px;
@@ -449,7 +453,7 @@ textarea::placeholder {
 
     .yulys-img {
         width: 100% !important;
-        height: 270px;
+        height: 339px;
     }
 
     .blue-button {
