@@ -698,6 +698,9 @@ textarea::placeholder {
         width: 368px !important;
         height: 261px !important;
     }
+    .company-services-sub-heading{
+        font-size: 16px;
+    }
 
     .company-services-paragraph {
         font-size: 15px;
@@ -746,6 +749,9 @@ textarea::placeholder {
 
     .cloud-based-div {
         margin-bottom: 50px;
+    }
+    .company-services-sub-heading{
+        font-size: 15px;
     }
 
     li .home-btn,
@@ -1099,7 +1105,7 @@ textarea::placeholder {
     .hand-img {
         object-fit: cover !important;
         width: 180px;
-        height: 366px;
+        height: 324px;
     }
 
     .cnt-us-form-txt {
@@ -1174,7 +1180,7 @@ textarea::placeholder {
         transform: translateX(-41px);
     }
     .mob-resp-btn{
-        margin-right: 5px;
+        margin-right: 20px;
     }
     .hand-img{
         width: 168px;
@@ -1290,6 +1296,7 @@ textarea::placeholder {
         height: 33px;
         width: 80px;
         font-size: 12px;
+        border-radius: 7px;
     }
 
     .footer-content {
@@ -1444,7 +1451,7 @@ textarea::placeholder {
 
 @media screen and (max-width:320px) and (min-width:300px) {
     .mob-resp-btn {
-        margin-right: 25px;
+        margin-right: 18px;
     }
     .work-img{
         width: 211px;
@@ -1498,7 +1505,12 @@ textarea::placeholder {
     .cnt-us-form-txt {
         height: 20px;
         font-size: 7px;
-        padding: 10px 0px 0px 0px;
+        padding: 10px 0px 1px 0px;
+        border-bottom: 1px solid #FFFFFF;
+    }
+    .text-area-txt {
+        padding-top: 2px;
+        border: 1px solid #FFFFFF;
     }
     .msg-send-btn-div{
         margin-bottom: 8px !important;
@@ -1507,6 +1519,7 @@ textarea::placeholder {
         height: 25px;
         width: 55px;
         font-size: 10px;
+        border-radius: 5px;
     }
     .yulys-img {
         width: 215px !important;
