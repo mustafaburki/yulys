@@ -1168,6 +1168,7 @@ textarea::placeholder {
         font-size: 9px;
     }
 }
+
 @media screen and (max-width:525px) {
     .our-tech-div{
         transform: translateX(-41px);
