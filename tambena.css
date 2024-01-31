@@ -325,18 +325,36 @@ textarea::placeholder {
     overflow-x: hidden;
 }
 
-@media screen and (min-width:1441px) {
+@media screen and (max-width:2000px) {
+    .yulys-img {
+        width: 394px;
+        height: 425px;
+    }
+    .our-tech-div{
+        transform: translateX(-169px);
+    }
     
+}
+
+@media screen and (max-width:1800px) {
+    .yulys-img {
+        width: 358px;
+        height: 389px;
+    }
+}
+
+@media screen and (max-width:1492px) {
+    .yulys-img{
+        width: 292px;
+        height: 322px;
+    }
  .col5-img{
     width: 562px;
     height: 398px;
  }
- .mobile-resp-form-field{
-    margin-top: 100px;
- }
  .hand-img{
-    width: 414px;
-    height: 813px;
+    width: 353px;
+    height: 856px;
  }
 }
 
@@ -565,9 +583,11 @@ textarea::placeholder {
     }
 
     .responsive-navbar {
+        box-shadow: 0px 15px 25px 0px #00000040;
         padding: 20px;
-        background-color: #ddcdcd;
+        background-color: #EEEEEE;
         gap: 5px !important;
+        margin-right: 0px;
         border-radius: 5px;
     }
     .mob-resp-btn{
@@ -1501,6 +1521,7 @@ textarea::placeholder {
         font-weight: 500;
     }
 }
+
 @media screen and (max-width:299px) {
     .our-tech-div{
         border: none;
