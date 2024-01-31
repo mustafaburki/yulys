@@ -405,11 +405,13 @@ textarea::placeholder {
     .btn-div{
         margin-top: 55px;
     }
+   
     .col5-img {
         width: 448px;
         height: 320px;
     }
     .about-txt{
+        padding-top: 45px;
         margin-top: 80px !important;
     }
 
@@ -419,6 +421,9 @@ textarea::placeholder {
     .hand-img{
         width: 259px;
         height: 694px;
+    }
+    .footer-navigation{
+        padding-left: 32px !important;
     }
 }
 
@@ -464,6 +469,7 @@ textarea::placeholder {
     .about-txt {
         font-size: 20px;
         margin-top: 10px;
+        padding-top: 0px;
     }
 
     .services-heading {
@@ -896,12 +902,19 @@ textarea::placeholder {
         width: 190px;
         height: 215px;
     }
+    .yulys-img {
+        width: 194px !important;
+        height: 220px;
+    }
     .our-tech-div{
         height: 132px;
         transform: translateX(-60px);
     }
     .our-techonology-row{
         margin-top: -50px;
+    }
+    .about-txt{
+        padding-top: 25px;
     }
 
     .col5-img {
@@ -990,6 +1003,9 @@ textarea::placeholder {
         margin-top: 50px !important;
         height: 128px;
         transform: translateX(-45px);
+    }
+    .our-tech-div h3 {
+        margin-top: 40px;
     }
 
     .our-techonology-row {
@@ -1104,7 +1120,7 @@ textarea::placeholder {
     }
 
     .footer-navigation li a {
-        margin-bottom: 16px;
+        margin-bottom: 10px;
         font-size: 12px;
     }
 
@@ -1138,6 +1154,10 @@ textarea::placeholder {
     }
     .mob-resp-btn{
         margin-right: 5px;
+    }
+    .hand-img{
+        width: 168px;
+        height: 324px;
     }
     
 }
@@ -1195,7 +1215,7 @@ textarea::placeholder {
     }
 
     .services-heading {
-        font-size: 17px;
+        font-size: 16px;
         margin-bottom: 10px;
     }
 
@@ -1226,7 +1246,7 @@ textarea::placeholder {
     .hand-img {
         object-fit: cover !important;
         width: 139px;
-        height: 342px;
+        height: 277px;
     }
     .mobile-resp-form-field {
         margin-top: 10px;
@@ -1264,7 +1284,7 @@ textarea::placeholder {
     }
 
     .footer-navigation li a {
-        margin-bottom: 14px;
+        margin-bottom: 8px;
         font-size: 11px;
     }
 
@@ -1354,6 +1374,7 @@ textarea::placeholder {
 
     .about-txt {
         font-size: 13px;
+        margin-bottom: 10px;
     }
 
     .services-heading {
@@ -1398,9 +1419,6 @@ textarea::placeholder {
         margin-right: 5px;
     }
 
-    .links {
-        line-height: 0px;
-    }
 }
 
 @media screen and (max-width:320px) and (min-width:300px) {
@@ -1430,6 +1448,12 @@ textarea::placeholder {
         margin-top: 0px;
         height: 1032px;
     }
+    .about-txt {
+        font-size: 14px;
+        margin-top: 15px !important;
+        margin-bottom: 8px;
+        padding-top: 10px;
+    }    
 
     .hand-img {
         width: 99px;
@@ -1466,6 +1490,15 @@ textarea::placeholder {
     .yulys-img {
         width: 215px !important;
         height: 200px;
+    }
+    .footer-navigation li a {
+        margin-bottom: 6px;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .statments {
+        font-size: 10px;
+        font-weight: 500;
     }
 }
 @media screen and (max-width:299px) {
