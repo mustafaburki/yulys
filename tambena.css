@@ -324,6 +324,32 @@ textarea::placeholder {
     width: 100%;
     overflow-x: hidden;
 }
+@media screen and (max-width:2400px) {
+.our-tech-div{
+    transform: translateX(-232px);
+}
+.our-techonology-row{
+    height: auto;
+}
+.xp-img {
+    object-fit: cover;
+    width: 376px;
+    height: 422px;
+}
+.yulys-img {
+    width: 482px;
+    height: 530px;
+}
+textarea {
+    height: 250px;
+}
+.hand-img {
+    object-fit: cover;
+    width: 588px;
+    height: 809px;
+}
+    
+}
 
 @media screen and (max-width:2000px) {
     .yulys-img {
@@ -333,6 +359,11 @@ textarea::placeholder {
     .our-tech-div{
         transform: translateX(-169px);
     }
+    .hand-img {
+        object-fit: cover;
+        width: 490px;
+        height: 809px;
+    }
     
 }
 
@@ -340,6 +371,16 @@ textarea::placeholder {
     .yulys-img {
         width: 358px;
         height: 389px;
+    }
+    .xp-img {
+        object-fit: cover;
+        width: 285px;
+        height: 310px;
+    }
+    .hand-img {
+        object-fit: cover;
+        width: 442px;
+        height: 809px;
     }
 }
 
@@ -352,9 +393,15 @@ textarea::placeholder {
     width: 562px;
     height: 398px;
  }
+ .our-tech-div {
+    transform: translateX(-142px);
+}
+textarea {
+    height: 220px;
+}
  .hand-img{
-    width: 353px;
-    height: 856px;
+    width: 361px;
+    height: 778px;
  }
 }
 
@@ -364,6 +411,9 @@ textarea::placeholder {
         width: 440px;
         object-fit: cover !important;
     }
+    .our-techonology-row{
+        height: 807px;
+    }
     .our-tech-div{
         transform: translateX(-134px);
     }
@@ -371,6 +421,10 @@ textarea::placeholder {
     .xp-img {
         width: 233px;
         height: 261px;
+    }
+
+    textarea{
+        height: 140px;
     }
 
     .yulys-img {
@@ -387,8 +441,16 @@ textarea::placeholder {
     }
     .hand-img{
         width: 348px;
-        height: 696px;
+        height: 776px;
     }
+}
+
+@media screen and (max-width:1366px) {
+.hand-img {
+    width: 327px;
+    height: 695px;
+}
+    
 }
 
 @media screen and (max-width:1200px) {
@@ -403,8 +465,14 @@ textarea::placeholder {
         height: 414px;
     }
     .hand-img {
-        width: 286px;
+        width: 290px;
         height: 696px;
+    }
+    .about-txt{
+        margin-top: 90px !important;
+    }
+    textarea {
+        height: 140px;
     }
     
 }
@@ -437,7 +505,7 @@ textarea::placeholder {
         font-size: 20px;
     }
     .hand-img{
-        width: 259px;
+        width: 263px;
         height: 694px;
     }
     .footer-navigation{
@@ -710,6 +778,10 @@ textarea::placeholder {
         width: 207px;
         height: 255px;
     }
+    .yulys-img {
+        width: 100% !important;
+        height: 279px;
+    }
 
     textarea {
         height: 120px;
@@ -735,6 +807,12 @@ textarea::placeholder {
         width: 307px;
         height: 286px;
     }
+
+    .yulys-img {
+        width: 100% !important;
+        height: 256px;
+    }
+        
     .our-tech-div{
         transform: translateX(-69px);
     }
@@ -746,6 +824,7 @@ textarea::placeholder {
         width: 327px !important;
         height: 234px !important;
     }
+
 
     .cloud-based-div {
         margin-bottom: 50px;
@@ -794,7 +873,7 @@ textarea::placeholder {
 
     .yulys-img {
         width: 225px !important;
-        height: 236px;
+        height: 242px;
     }
 
     .modren-techonology-paragraph {
@@ -983,7 +1062,7 @@ textarea::placeholder {
         transform: translateX(-49px);
     }
     .yulys-img {
-        width: 169px;
+        width: 169px !important;
         height: 185px;
     }
 
@@ -995,6 +1074,9 @@ textarea::placeholder {
     .col5-img {
         width: 255px !important;
         height: 182px !important;
+    }
+    .about-txt {
+        padding-top: 0px;
     }
     .btn-div {
         margin-top: 25px;
@@ -1050,6 +1132,7 @@ textarea::placeholder {
 
     .yulys-img {
         width: 300px !important;
+        height: 332px;
     }
 
     .paragraph-content {
@@ -1073,7 +1156,7 @@ textarea::placeholder {
     }
 
     .about-txt {
-        margin-top: 40px !important;
+        margin-top: 210px !important;
     }
 
     .services-heading {
@@ -1222,6 +1305,9 @@ textarea::placeholder {
     .content-heading {
         font-size: 16px;
     }
+    .yulys-img{
+        width: 168px !important;
+    }
 
     .paragraph-content {
         font-size: 13px;
@@ -1237,7 +1323,7 @@ textarea::placeholder {
 
     .about-txt {
         font-size: 15px;
-        margin-top: 30px !important;
+        margin-top: 170px !important;
         margin-bottom: 0px;
     }
 
@@ -1386,7 +1472,7 @@ textarea::placeholder {
         margin-bottom: 20px;
     }
     .yulys-img {
-        width: 250px !important;
+        width: 236px !important;
         height: 260px;
     }
 
@@ -1403,6 +1489,7 @@ textarea::placeholder {
     .about-txt {
         font-size: 13px;
         margin-bottom: 10px;
+        margin-top: 65px !important;
     }
 
     .services-heading {
@@ -1422,7 +1509,7 @@ textarea::placeholder {
         height: 163px !important;
     }
     .xp-img {
-        width: 250px !important;
+        width: 225px !important;
     }
 
     .mobile-resp-form-field {
@@ -1484,8 +1571,8 @@ textarea::placeholder {
     }    
 
     .hand-img {
-        width: 99px;
-        height: 217px;
+        width: 97px;
+        height: 197px;
     }
 
     .text-area-txt {
@@ -1522,7 +1609,7 @@ textarea::placeholder {
         border-radius: 5px;
     }
     .yulys-img {
-        width: 215px !important;
+        width: 182px !important;
         height: 200px;
     }
     .footer-navigation li a {
